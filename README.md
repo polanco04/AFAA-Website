@@ -14,7 +14,7 @@ This will be an Informational Website. It will contain a description of the game
 
 * Challenges faced during development
 
-* Thought Process and behind the scenes
+* Thought Process and how challenges were faced
 ---
 
 ## Collaborators
