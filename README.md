@@ -1,6 +1,5 @@
 # AFAA Website
 
-### Informational Website for the game "A Fleet Among Angels"
 This is a small repository to practice our web development so we can later create the final website in which "A Fleet Among Angels" will be played on.
 
 ---
