@@ -4,7 +4,7 @@ This is a small repository to practice our web development so we can later creat
 
 ---
 ## Purpose
-As mentioned above, to practice and develop our web development skills using HTML, CSS, and JavaScript. 
+As mentioned above, the purpose of this project is to practice and develop our web development skills using HTML, CSS, JavaScript, and their different libraries and tools. 
 This will be an Informational Website. It will contain a description of the game, updates on development, and maybe some small easter eggs here and there!
 
 
