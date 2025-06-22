@@ -1,0 +1,27 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-image: url("../assets/space.jpeg");
+    height: 5.5vh;
+    
+}
+
+.nav-link:hover{
+    background-color: rgb(139, 78, 78);
+}
+
+.nav-link{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    color:white;
+    padding: 10px;   
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px; 
+}
+
