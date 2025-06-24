@@ -1,0 +1,50 @@
+#bodyContent{
+    margin:10px;
+    font-size: large;
+}
+
+#TitleBox2
+{
+    color:rgb(186, 29, 29);
+    font-size: 2em; 
+    display:flex;
+    align-content: center;  
+    justify-content: center;
+    margin:0;
+    background-image: url('../assets/Retro.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#projectHeadline {
+    color: rgb(214, 214, 214);
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+}
+
+#projectHeadline2 {
+    color: rgb(214, 214, 214);
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+}
+
+#AboutUs{
+    color: rgb(214, 214, 214);
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+}
+
+#AboutTheGame{
+    color: rgb(214, 214, 214);
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+}
