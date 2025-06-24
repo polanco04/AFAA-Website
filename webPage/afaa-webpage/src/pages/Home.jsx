@@ -3,14 +3,18 @@ import '../css/Home.css'
 function Home(){
     return ( 
     <>
-        <div id="TitleBox">
-            <h1 id="homeTitle">A Fleet Among Angels</h1>
+        <div className="TitleBox">
+            <h1 className="homeTitle">A Fleet Among Angels</h1>
         </div>
-        <div id="HomeText">
-            <p id="subtitle">A new tactical SRPG forging its path among the stars!</p>
-            <p id="bodyContent">Welcome to the official Web Page fo A Fleet Among Angels, an exciting new browser-based <br></br>
-            Tactical Strategy Role Playing Game (SRPG) currently in active development!</p>
+        <div className="hBody">
+            <br/>
+            <p className="subtitle">A new tactical SRPG forging its path among the stars!</p>
+            <br/>
+            <p className="bodyContent">Welcome to the official website for A Fleet Among Angels: a browser-based Tactical Strategy Role-Playing Game currently in active development! <br/><br/>
+                                Here you can find our active development progress, learn more about our project, and try out our playable demo.
+            </p>
         </div>
+        <button className="playButton">PLAY DEMO</button>
     </>    
     );
 }

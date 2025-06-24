@@ -1,0 +1,27 @@
+.progressBody{
+    color: rgb(214, 214, 214);
+    margin:10px;
+    font-size: large;
+    font-family: 'Kode Mono', monospace;
+    text-align: center;
+}
+
+.progressBox
+{
+    font-size: 2em; 
+    display:flex;
+    align-content: center;  
+    justify-content: center;
+    margin:0;
+    background-image: url('../assets/Stock_Space.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.progressTitle
+{
+    color:rgb(186, 29, 29);
+    font-family: 'Inria Serif', serif;
+    text-align: center;
+}

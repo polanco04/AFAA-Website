@@ -5,7 +5,6 @@
 
 #TitleBox2
 {
-    color:rgb(186, 29, 29);
     font-size: 2em; 
     display:flex;
     align-content: center;  
@@ -17,9 +16,16 @@
     background-size: cover;
 }
 
+#projectTitle{
+    color:rgb(186, 29, 29);
+    font-family: 'Inria Serif', serif;
+    text-align: center;
+}
+
 #projectHeadline {
     color: rgb(214, 214, 214);
     font-style: italic;
+    font-family: 'Kode Mono', monospace;
     font-size: 2em;
     text-align: center;
     margin: 10px;
@@ -28,6 +34,7 @@
 #projectHeadline2 {
     color: rgb(214, 214, 214);
     font-style: italic;
+    font-family: 'Kode Mono', monospace;
     font-size: 2em;
     text-align: center;
     margin: 10px;
@@ -36,6 +43,7 @@
 #AboutUs{
     color: rgb(214, 214, 214);
     font-style: italic;
+    font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
     text-align: center;
     margin: 10px;
@@ -44,6 +52,7 @@
 #AboutTheGame{
     color: rgb(214, 214, 214);
     font-style: italic;
+    font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
     text-align: center;
     margin: 10px;
