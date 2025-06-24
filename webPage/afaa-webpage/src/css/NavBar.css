@@ -1,19 +1,23 @@
 .navbar{
     display:flex;
     justify-content: space-between;
-    background-image: url("../assets/space.jpeg");
+    /*background-image: url("../assets/Stock_Space.jpg");
+    background-image: url('../assets/Retro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: rgb(27, 27, 59); 
     height: 5.5vh;
     
 }
 
 .nav-link:hover{
-    background-color: rgb(139, 78, 78);
+    background-color: rgb(72, 72, 165); 
 }
 
 .nav-link{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
-    color:white;
+    color:rgb(0, 98, 255);
     padding: 10px;   
     border-radius: 3px;
     text-decoration: none;
@@ -21,7 +25,8 @@
 
 .navbar-links{
     display: flex;
-    gap: 10px;
-    margin-left: 15px; 
+    margin-left:15px;
+    justify-content: center;
+    align-items: center;
 }
 
