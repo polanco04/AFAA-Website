@@ -1,34 +1,55 @@
-#TitleBox2
-{
+.TitleBox2 {
     font-size: 2em; 
     display:flex;
     align-content: center;  
     justify-content: center;
-    margin:0;
+    margin-bottom: 0px;
     background-image: url('../assets/Retro.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-#projectTitle{
+.projectTitle {
     color:rgb(186, 29, 29);
     font-family: 'Inria Serif', serif;
     text-align: center;
 }
 
-#projectHeadline {
+.projectHeadline {
     color: #FFD445;
     font-family: 'Kode Mono', monospace;
     font-size: 2em;
     text-align: center;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
-#AboutTheProjectBody {
+.AboutTheProjectBody {
     color: rgb(214, 214, 214);
     font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
-    text-align: center;
-    margin: 10px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.AboutTheProjectBody.indented {
+    text-indent: 2em;
+}
+
+.highlightRed {
+    color:rgb(186, 29, 29);
+    font-weight: bold;
+}
+
+.highlightBlue {
+    color: #1ebdea;
+    font-weight: bold;
+}
+
+.highlightGreen {
+    color: #17ce17;
+    font-weight: bold;
 }
