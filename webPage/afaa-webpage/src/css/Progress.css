@@ -1,7 +1,11 @@
+.body{
+    margin-top: 30px;
+}
+
 .progressBody{
     color: rgb(214, 214, 214);
     margin:10px;
-    font-size: large;
+    font-size: 1.4em;
     font-family: 'Kode Mono', monospace;
     text-align: center;
 }
