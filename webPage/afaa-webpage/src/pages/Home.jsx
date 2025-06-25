@@ -1,8 +1,10 @@
 import '../css/Home.css'
+import {Link} from "react-router-dom";
 
 function Home(){
     return ( 
     <>
+        <div className="homeContainer">
         <div className="TitleBox">
             <h1 className="homeTitle">A Fleet Among Angels</h1>
         </div>
@@ -14,7 +16,8 @@ function Home(){
                                 Here you can find our active development progress, learn more about our project, and try out our playable demo.
             </p>
         </div>
-        <button className="playButton">PLAY DEMO</button>
+        <Link to ="/Progress" className="playButton">PLAY DEMO</Link>
+        </div>
     </>    
     );
 }
