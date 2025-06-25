@@ -1,8 +1,3 @@
-#bodyContent{
-    margin:10px;
-    font-size: large;
-}
-
 #TitleBox2
 {
     font-size: 2em; 
@@ -23,35 +18,15 @@
 }
 
 #projectHeadline {
-    color: rgb(214, 214, 214);
-    font-style: italic;
+    color: #FFD445;
     font-family: 'Kode Mono', monospace;
     font-size: 2em;
     text-align: center;
-    margin: 10px;
+    margin: 0px;
 }
 
-#projectHeadline2 {
+#AboutTheProjectBody {
     color: rgb(214, 214, 214);
-    font-style: italic;
-    font-family: 'Kode Mono', monospace;
-    font-size: 2em;
-    text-align: center;
-    margin: 10px;
-}
-
-#AboutUs{
-    color: rgb(214, 214, 214);
-    font-style: italic;
-    font-family: 'Kode Mono', monospace;
-    font-size: 1.2em;
-    text-align: center;
-    margin: 10px;
-}
-
-#AboutTheGame{
-    color: rgb(214, 214, 214);
-    font-style: italic;
     font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
     text-align: center;
