@@ -1,20 +1,23 @@
-.body{
-    margin-top: 30px;
+.pBodyBox{
+    text-align: left;
+    margin: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.progressBody{
+.pBodyText{
     color: rgb(214, 214, 214);
     margin:10px;
     font-size: 1.4em;
     font-family: 'Kode Mono', monospace;
-    text-align: center;
+    text-align: left;
 }
 
 .progressBox
 {
-    font-size: 2em; 
+    height:150px;
     display:flex;
-    align-content: center;  
+    align-items: center;  
     justify-content: center;
     margin:0;
     background-image: url('../assets/Stock_Space.jpg');
@@ -25,7 +28,18 @@
 
 .progressTitle
 {
+    font-size: clamp(3em, 10vw, 4em);
     color:rgb(186, 29, 29);
     font-family: 'Inria Serif', serif;
     text-align: center;
+}
+
+.nameHighlight{
+    color:rgb(186, 29, 29);
+    font-weight: bold;
+}
+
+.boldText{
+    font-weight: bold;
+    color: #17ce17;
 }
