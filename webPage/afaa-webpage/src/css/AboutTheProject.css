@@ -1,7 +1,7 @@
 .TitleBox2 {
-    font-size: 2em; 
+    height:150px; 
     display:flex;
-    align-content: center;  
+    align-items: center;  
     justify-content: center;
     margin-bottom: 0px;
     background-image: url('../assets/Retro.jpg');
@@ -11,6 +11,7 @@
 }
 
 .projectTitle {
+    font-size: clamp(2em, 11vw, 4.0em);
     color:rgb(186, 29, 29);
     font-family: 'Inria Serif', serif;
     text-align: center;
@@ -29,7 +30,7 @@
     color: rgb(214, 214, 214);
     font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
-    text-align: left;;
+    text-align: left;
     margin: 30px;
     margin-top: 0px;
     margin-bottom: 20px;

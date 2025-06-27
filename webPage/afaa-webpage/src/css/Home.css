@@ -1,33 +1,46 @@
-.homeContainer{
-  padding-bottom: 40px;
-}
-
 .TitleBox
-{
-    font-size: 2em; 
+{              
+    height:200px;
     display:flex;
-    align-content: center;  
+    align-items: center;  
     justify-content: center;
+    flex-direction: column;
     margin-bottom: 0px;
     background-image: url('../assets/Stock_Space.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin:0;
 }
 
 .homeTitle
 {
+    font-size: clamp(2.2em, 8vw, 4em);
     color:rgb(186, 29, 29);
     font-family: 'Inria Serif', serif;
     text-align: center;
-}
-
-.hBody{
+    font-weight: bold;
+    margin-bottom: 0px;
     margin-top: 10px;
 }
 
+.homeSubtitle
+{
+    font-size: clamp(1em, 1.3vw, 2em);
+    color:#c6a436;
+    font-family: 'Inria Serif', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.homeContainer{
+  padding-bottom: 40px;
+  margin: 25px;
+}
+
 .subtitle{
-    font-size: 2.25em;
+    font-size: clamp(1.3em, 6vw, 2em);
     color:#FFD445;
     margin: 0px;
     margin-bottom: 10px;
@@ -36,11 +49,12 @@
     text-align: center;
 }
 
-.homeText{
-    display:inline-block;
-    width:30%;
-    margin-left: 2%;
-    margin-top: 2%;
+.bodyContent{
+    color: rgb(214, 214, 214);
+    margin:10px;
+    font-size: clamp(1em, 6vw, 1.3em);
+    font-family: 'Kode Mono', monospace;
+    text-align: center;
 }
 
 .playButton{
@@ -70,13 +84,3 @@
 .playButton:active{
     transform: scale(0.95);
 }
-
-
-.bodyContent{
-    color: rgb(214, 214, 214);
-    margin:10px;
-    font-size:1.3em;
-    font-family: 'Kode Mono', monospace;
-    text-align: center;
-}
-
