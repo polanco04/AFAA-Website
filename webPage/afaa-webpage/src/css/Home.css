@@ -8,7 +8,7 @@
     display:flex;
     align-content: center;  
     justify-content: center;
-    margin:0;
+    margin-bottom: 0px;
     background-image: url('../assets/Stock_Space.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -23,13 +23,15 @@
 }
 
 .hBody{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .subtitle{
-    font-size: 2.5em;
-    color:rgb(186, 29, 29);
-    margin: 10px;
+    font-size: 2.25em;
+    color:#FFD445;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
     font-family: 'Kode Mono', monospace;
     text-align: center;
 }
@@ -47,21 +49,22 @@
     justify-content: center;
     margin: auto;
     margin-top: 60px;
-    height:100px;
-    width:200px;
-    background-color: rgb(36, 36, 84);
+    height:125px;
+    width:250px;
+    background-color: rgb(19, 19, 55);
     color: rgb(217, 1, 1);
     font-size: 1.7em;
     font-family: 'Kode Mono', monospace;
     font-weight:bold;
     text-decoration: none;
-    border-radius:10px;
+    border-radius:15px;
+    border: 2px solid rgb(0, 0, 0);
     cursor:pointer;
 }
 
 .playButton:hover{
-    background-color: rgb(59, 59, 137);
-    color: rgb(255, 0, 0);
+    background-color: rgb(78, 78, 107);
+    color: rgb(175, 175, 175);
 }
 
 .playButton:active{

@@ -18,14 +18,15 @@
     font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
     color:rgb(0, 98, 255);
-    padding: 10px;   
-    border-radius: 3px;
+    padding: 8px;
+    border-radius: 2px;
     text-decoration: none;
+    border: 0px solid;
+    border-right: 1px solid rgb(54, 54, 54);
 }
 
 .navbar-links{
     display: flex;
-    margin-left:15px;
     justify-content: center;
     align-items: center;
 }

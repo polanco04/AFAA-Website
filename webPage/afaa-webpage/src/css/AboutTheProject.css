@@ -19,17 +19,17 @@
 .projectHeadline {
     color: #FFD445;
     font-family: 'Kode Mono', monospace;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
-    margin: 0px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .AboutTheProjectBody {
     color: rgb(214, 214, 214);
     font-family: 'Kode Mono', monospace;
     font-size: 1.2em;
-    text-align: left;
+    text-align: left;;
     margin: 30px;
     margin-top: 0px;
     margin-bottom: 20px;
