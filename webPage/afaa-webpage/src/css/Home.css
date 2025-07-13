@@ -1,6 +1,9 @@
 .TitleBox
 {              
-    height:200px;
+    min-height: 10vh;
+    max-height: 15vh;
+    height: auto;
+    padding: 2em 1em;
     display:flex;
     align-items: center;  
     justify-content: center;
@@ -15,7 +18,7 @@
 
 .homeTitle
 {
-    font-size: clamp(2.2em, 8vw, 4em);
+    font-size: clamp(2em, 8vw, 3.5em);
     color:rgb(186, 29, 29);
     font-family: 'Inria Serif', serif;
     text-align: center;
@@ -26,7 +29,7 @@
 
 .homeSubtitle
 {
-    font-size: clamp(1em, 1.3vw, 2em);
+    font-size: clamp(1.1em, 1.3vw, 2em);
     color:#c6a436;
     font-family: 'Inria Serif', serif;
     text-align: center;
@@ -36,11 +39,11 @@
 
 .homeContainer{
   padding-bottom: 40px;
-  margin: 25px;
+  margin: 10px;
 }
 
 .subtitle{
-    font-size: clamp(1.3em, 6vw, 2em);
+    font-size: clamp(1em, 6vw, 1.5em);
     color:#FFD445;
     margin: 0px;
     margin-bottom: 10px;
@@ -52,7 +55,7 @@
 .bodyContent{
     color: rgb(214, 214, 214);
     margin:10px;
-    font-size: clamp(1em, 6vw, 1.3em);
+    font-size: clamp(.5em, 6vw, 1em);
     font-family: 'Kode Mono', monospace;
     text-align: center;
 }
@@ -63,7 +66,7 @@
     justify-content: center;
     margin: auto;
     margin-top: 60px;
-    height:125px;
+    height:120px;
     width:250px;
     background-color: rgb(19, 19, 55);
     color: rgb(217, 1, 1);
