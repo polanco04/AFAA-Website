@@ -1,6 +1,8 @@
 .pBodyBox{
     text-align: center;
     margin: 20px;
+    max-width: 60ch;
+    margin: 0 auto; 
 }
 
 .pBodyText{
@@ -8,7 +10,8 @@
     margin:10px;
     font-size: clamp(1em, 6vw, 1.1em);
     font-family: 'Kode Mono', monospace;
-    text-align: center;
+    text-align: left;
+    text-indent: 4em;
 }
 
 .progressBox
