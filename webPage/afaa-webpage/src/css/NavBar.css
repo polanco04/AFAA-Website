@@ -7,6 +7,7 @@
 
 .navLink:hover{
     background-color: rgb(72, 72, 165); 
+    color: rgb(175, 175, 175);
 }
 
 .navLink, .navDemo{
@@ -25,6 +26,7 @@
 
 .navDemo:hover{
     background-color: rgb(72, 72, 165); 
+    color: rgb(175, 175, 175);
 }
 
 .navbarLinks{

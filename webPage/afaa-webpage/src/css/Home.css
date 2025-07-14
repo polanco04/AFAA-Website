@@ -19,7 +19,10 @@
 .homeTitle
 {
     font-size: clamp(2em, 8vw, 3.5em);
-    color:rgb(186, 29, 29);
+    background-image: linear-gradient(#C50D0D, #730000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Inria Serif', serif;
     text-align: center;
     font-weight: bold;
@@ -30,7 +33,10 @@
 .homeSubtitle
 {
     font-size: clamp(1.1em, 1.3vw, 2em);
-    color:#c6a436;
+    background-image: linear-gradient(#FFD445, #AF8600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Inria Serif', serif;
     text-align: center;
     font-weight: bold;
@@ -58,6 +64,8 @@
     font-size: clamp(.5em, 6vw, 1em);
     font-family: 'Kode Mono', monospace;
     text-align: center;
+    max-width: 60ch;
+    margin: 0 auto; 
 }
 
 .playButton{
