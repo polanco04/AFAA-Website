@@ -20,3 +20,7 @@ This will be an Informational Website. It will contain a description of the game
 ## Collaborators
 * Zach Barrentine
 * Carlos Polanco
+
+
+### This was a starter repository, here is the link to the actual repository of the website and game:
+https://github.com/ZachBarrentine/A-Fleet-Among-Angels
